@@ -37,6 +37,8 @@
 	</dependency>
   
   </dependencies>
+
+
   
   <build>
   
@@ -85,4 +87,18 @@
   	 <maven.compiler.source>1.8</maven.compiler.source>
  	<maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+  <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>LION TECH ACADEMY Releases Nexus Repository</name>
+	      <url>http://35.182.183.173:8081/repository/01-onlinelibrary-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>LION TECH ACADEMY Snapshot Nexus Repository </name>
+	      <url>http://35.182.183.173:8081/repository/02-online-library-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 </project>
