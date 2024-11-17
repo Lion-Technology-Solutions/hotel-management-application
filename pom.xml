@@ -103,6 +103,7 @@
 	</distributionManagement>
 
   <properties>
+		<jdk.version>11</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
@@ -111,6 +112,6 @@
 		<sonar.login>e161960955ea22ae8b1b28e28608369b9ae21452</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-	</properties>
+
 
 </project>
