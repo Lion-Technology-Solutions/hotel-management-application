@@ -101,6 +101,7 @@
 	    </snapshotRepository>
 	    
 	</distributionManagement>
+
   <properties>
 		<jdk.version>11.0.25</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
@@ -112,5 +113,5 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
-  
+
 </project>
