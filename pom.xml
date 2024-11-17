@@ -82,12 +82,12 @@
       
     </plugins>
   </build>
-  <properties> 
-  	<java.version>1.8</java.version> 
-  	 <maven.compiler.source>1.8</maven.compiler.source>
- 	<maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
-  <distributionManagement>
+  #<properties> 
+  	#<java.version>1.8</java.version> 
+  	 #<maven.compiler.source>1.8</maven.compiler.source>
+ 	#<maven.compiler.target>1.8</maven.compiler.target>
+  #</properties>
+  #<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Releases Nexus Repository</name>
@@ -112,6 +112,6 @@
 		<sonar.login>e161960955ea22ae8b1b28e28608369b9ae21452</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
+	</properties>
 
 </project>
